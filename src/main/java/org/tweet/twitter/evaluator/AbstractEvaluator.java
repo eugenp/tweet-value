@@ -9,8 +9,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.tweet.twitter.util.ErrorUtil;
 
-import com.google.api.client.util.Preconditions;
 import com.google.common.base.CharMatcher;
+import com.google.common.base.Preconditions;
 import com.google.common.base.Splitter;
 import com.google.common.collect.Lists;
 
@@ -81,7 +81,7 @@ public abstract class AbstractEvaluator implements IEvaluator {
      * - single word - contains <br/>
      * - single word - starts with <br/>
      * - regular expression - matches <br/>
-    */
+     */
     @Override
     public boolean isTweetBanned(final String originalTweet) {
         // by expression

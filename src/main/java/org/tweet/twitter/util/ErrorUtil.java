@@ -3,7 +3,7 @@ package org.tweet.twitter.util;
 import java.util.Map;
 import java.util.Set;
 
-import com.google.api.client.util.Preconditions;
+import com.google.common.base.Preconditions;
 import com.google.common.collect.Maps;
 import com.google.common.collect.Sets;
 

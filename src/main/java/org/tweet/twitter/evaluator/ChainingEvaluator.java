@@ -2,7 +2,7 @@ package org.tweet.twitter.evaluator;
 
 import java.util.List;
 
-import com.google.api.client.util.Preconditions;
+import com.google.common.base.Preconditions;
 
 public class ChainingEvaluator implements IEvaluator {
 
