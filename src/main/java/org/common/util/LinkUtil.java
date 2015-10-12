@@ -18,10 +18,10 @@ public final class LinkUtil {
 
         final static List<String> bannedDomainsStartsWith = Lists.newArrayList(// @formatter:off
             "http://wp-plugin-archive.de",
-            "http://www.blogging-inside.de", 
-            "http://www.perun.net", 
-            "http://www.heyyou-app.com", 
-            "http://www.freelancer.com", "https://www.freelancer.com", "http://www.peopleperhour.com", 
+            "http://www.blogging-inside.de",
+            "http://www.perun.net",
+            "http://www.heyyou-app.com",
+            "http://www.freelancer.com", "https://www.freelancer.com", "http://www.peopleperhour.com",
             "http://www.almasryalyoum.com/", // non English
             "https://www.facebook.com" // verified - no false positive after about 2 weeks - accepting
         );// @formatter:on
@@ -29,18 +29,18 @@ public final class LinkUtil {
             ".git"
         );// @formatter:on
         final static List<String> bannedDomainsByContains = Lists.newArrayList(// @formatter:off
-             "youtube.com" 
+             "youtube.com"
             ,"webdevers.com" // jobs
             ,"plus.google.com" // making this decision - it's OK
         );// @formatter:on
         public final static List<String> bannedDomainsByContainsMaybe = Lists.newArrayList(// @formatter:off
-            // 
+            //
         );// @formatter:on
         final static List<String> bannedDomainsByRegex = Lists.newArrayList(// @formatter:off
-            "http(s)?://(www.)?.*\\.de(\\z|/.*)" 
+            "http(s)?://(www.)?.*\\.de(\\z|/.*)"
         );// @formatter:on
         final static List<String> bannedDomainsByRegexMaybe = Lists.newArrayList(// @formatter:off
-            "http(s)?://(www.)?.*job.*\\.com(\\z|/.*)", 
+            "http(s)?://(www.)?.*job.*\\.com(\\z|/.*)",
             "http(s)?://(www.)?.*\\.it(\\z|/.*)"
         );// @formatter:on
     }
@@ -52,19 +52,20 @@ public final class LinkUtil {
             //
         );// @formatter:on
         final static List<String> bannedDomainsEndsWith = Lists.newArrayList(// @formatter:off
-            // 
+            //
         );// @formatter:on
         final static List<String> bannedDomainsByContains = Lists.newArrayList(// @formatter:off
-             "instagram.com" 
+             "instagram.com",
+             "buggybread.com"
         );// @formatter:on
         public final static List<String> bannedDomainsByContainsMaybe = Lists.newArrayList(// @formatter:off
             "pic.twitter.com"
         );// @formatter:on
         final static List<String> bannedDomainsByRegex = Lists.newArrayList(// @formatter:off
-            //  
+            //
         );// @formatter:on
         final static List<String> bannedDomainsByRegexMaybe = Lists.newArrayList(// @formatter:off
-            "https://twitter.com/.*/photo/\\d+" 
+            "https://twitter.com/.*/photo/\\d+"
         );// @formatter:on
     }
 
